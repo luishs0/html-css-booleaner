@@ -1,6 +1,5 @@
 *{
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
@@ -12,6 +11,7 @@
     background-size: contain;
     background-position: center;
     position: relative;
+    margin-bottom: 1.5%;
 }
 
 .sfondo-header img{
@@ -20,6 +20,73 @@
     bottom: 1%;
     left: 0.3%;
 }
+/* /HEADER */
 
+/* MAIN */
+.container{
+    margin-left: 0.5%;
+}
 
+/* tittolo e imgs */
+h1{
+    font-size: 35px;
+}
 
+.sottotitolo{
+    font-size: 18px;
+    color: grey;
+    margin-bottom: 1.5%;
+}
+
+#thebooleaner{
+    color: blue;
+}
+
+.data{
+    font-size: 13px;
+}
+
+.sotto-img{
+    font-size: 13px;
+    line-height: 9px;
+}
+/* /tittolo e imgs */
+
+/* primo paragrafo e ul */
+.section2{
+    margin-top: 25px;
+}
+
+.section2 ul{
+    margin-top: 25px;
+    padding: 1%;
+}
+/* /primo paragrafo e ul */
+
+/* table */
+table{
+    margin-top: 20px;
+    
+}
+
+td, th{
+    text-align: left;
+}
+
+td{
+    line-height: 22px;
+    
+}
+
+thead{
+    background-color: #1fa9e5;
+    color: white;
+}
+.testo-tabella{
+    width: 40%;
+}
+
+.primo-tr, .terzo-tr{
+    background-color: #b2e4f2;
+}
+/* /table */
