@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+.sfondo-header{
+    height: 10vh;
+    background-color: #4ea0ff;
+    background-image: url(../img/pattern.png);
+    background-size: contain;
+    background-position: center;
+    position: relative;
+}
+
+.sfondo-header img{
+    height: 75%;
+    position: absolute;
+    bottom: 1%;
+    left: 0.3%;
+}
+
+
+
