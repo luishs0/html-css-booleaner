@@ -8,8 +8,8 @@
     height: 10vh;
     background-color: #4ea0ff;
     background-image: url(../img/pattern.png);
-    background-size: contain;
-    background-position: center;
+    background-size: 20%;
+    background-position: top;
     position: relative;
     margin-bottom: 1.5%;
 }
@@ -141,6 +141,11 @@ footer .img2-footer{
     color: white;
     font-size: 25px;
     padding: 10px;
+}
+
+.img1-footer > a, .img2-footer > a{
+    text-decoration: none;
+    color: white;
 }
 /* /imagini */
 /* /FOOTER */
